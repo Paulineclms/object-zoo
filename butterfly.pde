@@ -7,8 +7,8 @@ class butterfly extends Animal{
   color antennaColor;
   
   
- public butterfly(color ac, color bc, color lwc, color uwc, color uiwc, int y, int x, int getSize()) {
-    super(x, y, getSize());
+ public butterfly(color ac, color bc, color lwc, color uwc, color uiwc, int y, int x, int Size) {
+    super(x, y, Size);
     this.antennaColor = ac;
     this.bodyColor = bc;
     this.lowerWingColor = lwc;
